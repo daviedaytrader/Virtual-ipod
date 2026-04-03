@@ -7,6 +7,7 @@
 
 // ─── Song Library ────────────────────────────────────────────
 const SONGS = [
+  // ── Blues ──────────────────────────────────────────────────
   {
     id: 1,
     title: "Court House Blues",
@@ -30,6 +31,117 @@ const SONGS = [
     emoji: "🎹"
   },
   {
+    id: 7,
+    title: "One Dime Blues",
+    artist: "Blind Lemon Jefferson",
+    album: "Country Blues",
+    year: "1927",
+    genre: "Blues",
+    url: "https://openmusicarchive.org/audio/One_Dime_Blues.mp3",
+    color: ["#1a0800", "#991b1b"],
+    emoji: "🎙️"
+  },
+  {
+    id: 9,
+    title: "Deep Blue Sea Blues",
+    artist: "Clara Smith",
+    album: "Blues Classics",
+    year: "1923",
+    genre: "Blues",
+    url: "https://openmusicarchive.org/audio/Deep_Blue_Sea_Blues.mp3",
+    color: ["#001020", "#0369a1"],
+    emoji: "🌊"
+  },
+  {
+    id: 10,
+    title: "Evil Minded Blues",
+    artist: "Virginia Liston",
+    album: "Classic Blues",
+    year: "1926",
+    genre: "Blues",
+    url: "https://openmusicarchive.org/audio/Evil_Minded_Blues.mp3",
+    color: ["#200010", "#9d174d"],
+    emoji: "😈"
+  },
+  {
+    id: 11,
+    title: "Jump Steady Blues",
+    artist: "Pine Top Smith",
+    album: "Boogie & Blues",
+    year: "1928",
+    genre: "Blues",
+    url: "https://openmusicarchive.org/audio/Jump_Steady_Blues.mp3",
+    color: ["#1a0a00", "#c2410c"],
+    emoji: "🦘"
+  },
+  {
+    id: 12,
+    title: "Pinetop's Blues",
+    artist: "Pine Top Smith",
+    album: "Boogie & Blues",
+    year: "1928",
+    genre: "Blues",
+    url: "https://openmusicarchive.org/audio/Pinetops_Blues.mp3",
+    color: ["#0a1500", "#15803d"],
+    emoji: "🌲"
+  },
+  {
+    id: 13,
+    title: "Six Cold Feet In The Ground",
+    artist: "Leroy Carr",
+    album: "Indiana Avenue Blues",
+    year: "1934",
+    genre: "Blues",
+    url: "https://openmusicarchive.org/audio/Six_Cold_Feet_In_The_Ground.mp3",
+    color: ["#0f0f0f", "#374151"],
+    emoji: "⚰️"
+  },
+  {
+    id: 14,
+    title: "Poor Me Blues",
+    artist: "Edna Hicks",
+    album: "Classic Blues",
+    year: "1923",
+    genre: "Blues",
+    url: "https://openmusicarchive.org/audio/Poor_Me_Blues.mp3",
+    color: ["#1a0020", "#7e22ce"],
+    emoji: "💔"
+  },
+  {
+    id: 15,
+    title: "Rolls Royce Papa",
+    artist: "Virginia Liston",
+    album: "Classic Blues",
+    year: "1925",
+    genre: "Blues",
+    url: "https://openmusicarchive.org/audio/Rolls_Royce_Papa.mp3",
+    color: ["#100800", "#d97706"],
+    emoji: "🚗"
+  },
+  {
+    id: 16,
+    title: "Titanic Blues",
+    artist: "Virginia Liston",
+    album: "Classic Blues",
+    year: "1926",
+    genre: "Blues",
+    url: "https://openmusicarchive.org/audio/Titanic_Blues.mp3",
+    color: ["#001020", "#1d4ed8"],
+    emoji: "🚢"
+  },
+  {
+    id: 17,
+    title: "I'm Sober Now",
+    artist: "Pine Top Smith",
+    album: "Boogie & Blues",
+    year: "1928",
+    genre: "Blues",
+    url: "https://openmusicarchive.org/audio/Im_Sober_Now.mp3",
+    color: ["#100a00", "#a16207"],
+    emoji: "🥤"
+  },
+  // ── Jazz ───────────────────────────────────────────────────
+  {
     id: 3,
     title: "Don't Go 'Way Nobody",
     artist: "George Lewis & His New Orleans Stompers",
@@ -52,37 +164,71 @@ const SONGS = [
     emoji: "🌙"
   },
   {
+    id: 18,
+    title: "April Kisses",
+    artist: "Eddie Lang",
+    album: "Jazz Guitar",
+    year: "1927",
+    genre: "Jazz",
+    url: "https://openmusicarchive.org/audio/April_Kisses.mp3",
+    color: ["#1a0a10", "#be185d"],
+    emoji: "🌸"
+  },
+  {
+    id: 19,
+    title: "Eddie's Twister",
+    artist: "Eddie Lang",
+    album: "Jazz Guitar",
+    year: "1927",
+    genre: "Jazz",
+    url: "https://openmusicarchive.org/audio/Eddies_Twister.mp3",
+    color: ["#001a10", "#059669"],
+    emoji: "🌀"
+  },
+  {
+    id: 20,
+    title: "Little Bits",
+    artist: "Johnny Dodds Trio",
+    album: "Chicago Jazz",
+    year: "1927",
+    genre: "Jazz",
+    url: "https://openmusicarchive.org/audio/Little_Bits.mp3",
+    color: ["#0a0020", "#6d28d9"],
+    emoji: "🎺"
+  },
+  {
+    id: 21,
+    title: "Struggling",
+    artist: "Johnny Dodds Trio",
+    album: "Chicago Jazz",
+    year: "1927",
+    genre: "Jazz",
+    url: "https://openmusicarchive.org/audio/Struggling.mp3",
+    color: ["#1a1000", "#92400e"],
+    emoji: "💪"
+  },
+  {
+    id: 22,
+    title: "Umbrellas to Mend",
+    artist: "Frisco Jass Band",
+    album: "Early Jazz 1917",
+    year: "1917",
+    genre: "Jazz",
+    url: "https://openmusicarchive.org/audio/Umbrellas_To_Mend.mp3",
+    color: ["#001520", "#0c4a6e"],
+    emoji: "☂️"
+  },
+  // ── Folk / Country ─────────────────────────────────────────
+  {
     id: 5,
     title: "Ragtime Annie",
     artist: "Charlie Poole & The North Carolina Ramblers",
     album: "Old-Time Folk",
     year: "1926",
-    genre: "Folk / Ragtime",
+    genre: "Folk",
     url: "https://openmusicarchive.org/audio/Ragtime_Annie.mp3",
     color: ["#0f1a00", "#4d7c0f"],
     emoji: "🎸"
-  },
-  {
-    id: 6,
-    title: "Introduction & Tarantelle",
-    artist: "Mischa Elman",
-    album: "Classical Violin",
-    year: "1910",
-    genre: "Classical",
-    url: "https://openmusicarchive.org/audio/Intro_And_Tarantelle.mp3",
-    color: ["#1a0a00", "#92400e"],
-    emoji: "🎻"
-  },
-  {
-    id: 7,
-    title: "One Dime Blues",
-    artist: "Blind Lemon Jefferson",
-    album: "Country Blues",
-    year: "1927",
-    genre: "Blues",
-    url: "https://openmusicarchive.org/audio/One_Dime_Blues.mp3",
-    color: ["#1a0800", "#991b1b"],
-    emoji: "🎙️"
   },
   {
     id: 8,
@@ -94,6 +240,141 @@ const SONGS = [
     url: "https://openmusicarchive.org/audio/Frankie%20by%20Mississippi%20John%20Hurt.mp3",
     color: ["#001a0a", "#065f46"],
     emoji: "🌿"
+  },
+  {
+    id: 23,
+    title: "Goodbye Booze",
+    artist: "Charlie Poole & The NC Ramblers",
+    album: "Old-Time Folk",
+    year: "1930",
+    genre: "Folk",
+    url: "https://openmusicarchive.org/audio/Goodbye_Booze.mp3",
+    color: ["#100a00", "#78350f"],
+    emoji: "🍺"
+  },
+  {
+    id: 24,
+    title: "Waiting For A Train",
+    artist: "Jimmie Rodgers",
+    album: "Country Classics",
+    year: "1928",
+    genre: "Country",
+    url: "https://openmusicarchive.org/audio/Waiting_For_A_Train.mp3",
+    color: ["#0f0800", "#b45309"],
+    emoji: "🚂"
+  },
+  {
+    id: 25,
+    title: "White House Blues",
+    artist: "Charlie Poole & The NC Ramblers",
+    album: "Old-Time Folk",
+    year: "1926",
+    genre: "Folk",
+    url: "https://openmusicarchive.org/audio/Whitehouse_Blues.mp3",
+    color: ["#0a1000", "#166534"],
+    emoji: "🏛️"
+  },
+  {
+    id: 26,
+    title: "Sugar Baby",
+    artist: "Dock Boggs",
+    album: "Mountain Music",
+    year: "1927",
+    genre: "Folk",
+    url: "https://openmusicarchive.org/audio/Sugar%20Baby%20by%20Dock%20Boggs.mp3",
+    color: ["#1a0010", "#9f1239"],
+    emoji: "🍬"
+  },
+  {
+    id: 27,
+    title: "Old Dog Blue",
+    artist: "Jim Jackson",
+    album: "Folk Blues",
+    year: "1928",
+    genre: "Folk",
+    url: "https://openmusicarchive.org/audio/Old%20Dog%20Blue%20by%20Jim%20Jackson.mp3",
+    color: ["#0a0f00", "#3f6212"],
+    emoji: "🐕"
+  },
+  {
+    id: 28,
+    title: "Drunkard's Special",
+    artist: "Coley Jones",
+    album: "Texas Folk Blues",
+    year: "1929",
+    genre: "Folk",
+    url: "https://openmusicarchive.org/audio/Drunkards%20Special%20by%20Coley%20Jones.mp3",
+    color: ["#100a00", "#a16207"],
+    emoji: "🥃"
+  },
+  {
+    id: 29,
+    title: "Dry Bones",
+    artist: "Bascom Lamar Lunsford",
+    album: "Mountain Folk",
+    year: "1928",
+    genre: "Folk",
+    url: "https://openmusicarchive.org/audio/Dry%20Bones%20by%20Bascom%20Lamar%20Lunsford.mp3",
+    color: ["#0f0f00", "#ca8a04"],
+    emoji: "🦴"
+  },
+  // ── Classical / Instrumental ───────────────────────────────
+  {
+    id: 6,
+    title: "Introduction & Tarantelle",
+    artist: "Mischa Elman",
+    album: "Classical Violin",
+    year: "1910",
+    genre: "Classical",
+    url: "https://openmusicarchive.org/audio/Intro_And_Tarantelle.mp3",
+    color: ["#1a0a00", "#92400e"],
+    emoji: "🎻"
+  },
+  // ── Vocal / Music Hall ─────────────────────────────────────
+  {
+    id: 30,
+    title: "Daddy Wouldn't Buy Me A Bow Wow",
+    artist: "Silas Leachman",
+    album: "Music Hall Rarities",
+    year: "1892",
+    genre: "Music Hall",
+    url: "https://openmusicarchive.org/audio/Daddy_Wouldnt_Buy_Me_A_Bow_Wow.mp3",
+    color: ["#100020", "#5b21b6"],
+    emoji: "🎩"
+  },
+  {
+    id: 31,
+    title: "For Months And Months And Months",
+    artist: "Jack Norworth",
+    album: "Tin Pan Alley",
+    year: "1910",
+    genre: "Vocal Pop",
+    url: "https://openmusicarchive.org/audio/For_Months_And_Months_And_Months.mp3",
+    color: ["#001010", "#0f766e"],
+    emoji: "📅"
+  },
+  {
+    id: 32,
+    title: "At The Ball That's All",
+    artist: "Mayo & Tally",
+    album: "Tin Pan Alley",
+    year: "1913",
+    genre: "Vocal Pop",
+    url: "https://openmusicarchive.org/audio/At_The_Ball_Thats_All.mp3",
+    color: ["#100010", "#86198f"],
+    emoji: "🎊"
+  },
+  // ── World ──────────────────────────────────────────────────
+  {
+    id: 33,
+    title: "Oi Ya Nestchastay",
+    artist: "Alexander Sashko & A. Iranova",
+    album: "World Music",
+    year: "1920s",
+    genre: "World",
+    url: "https://openmusicarchive.org/audio/Oi_ya_nestchastay.mp3",
+    color: ["#0a0020", "#1e3a5f"],
+    emoji: "🌍"
   }
 ];
 
@@ -316,10 +597,11 @@ const MAIN_MENU = [
 ];
 
 const MUSIC_MENU = [
-  { label: 'Songs',   icon: '♪', action: 'push', target: 'songs_list' },
+  { label: 'Songs',   icon: '♪',  action: 'push', target: 'songs_list'   },
   { label: 'Artists', icon: '👤', action: 'push', target: 'artists_list' },
-  { label: 'Genres',  icon: '🎼', action: 'push', target: 'genres_list' },
-  { label: 'Upload',  icon: '📂', action: 'upload' },
+  { label: 'Albums',  icon: '💿', action: 'push', target: 'albums_list'  },
+  { label: 'Genres',  icon: '🎼', action: 'push', target: 'genres_list'  },
+  { label: 'Upload',  icon: '📂', action: 'upload'                        },
 ];
 
 const EXTRAS_MENU = [
@@ -341,6 +623,7 @@ function currentMenuItems() {
     case 'settings_menu': return SETTINGS_MENU;
     case 'songs_list':    return buildSongsList();
     case 'artists_list':  return buildArtistsList();
+    case 'albums_list':   return buildAlbumsList();
     case 'genres_list':   return buildGenresList();
     case 'eq_menu':       return buildEQMenu();
     default: return [];
@@ -358,25 +641,54 @@ function buildSongsList() {
 }
 
 function buildArtistsList() {
-  const artists = [...new Set(allSongs().map(s => s.artist))];
-  return artists.map(a => ({
-    label: a,
-    icon: '👤',
-    action: 'push',
-    target: 'artist_songs',
-    artist: a,
-  }));
+  const artists = [...new Set(allSongs().map(s => s.artist))].sort();
+  return artists.map(a => {
+    const count = allSongs().filter(s => s.artist === a).length;
+    return {
+      label: a,
+      sub: `${count} song${count !== 1 ? 's' : ''}`,
+      icon: '👤',
+      action: 'push',
+      target: 'artist_songs',
+      artist: a,
+    };
+  });
+}
+
+function buildAlbumsList() {
+  const albums = [...new Set(allSongs().map(s => s.album))].sort();
+  return albums.map(al => {
+    const songs = allSongs().filter(s => s.album === al);
+    return {
+      label: al,
+      sub: songs[0]?.artist || '',
+      icon: '💿',
+      action: 'push',
+      target: 'album_songs',
+      album: al,
+    };
+  });
 }
 
 function buildGenresList() {
-  const genres = [...new Set(allSongs().map(s => s.genre))];
-  return genres.map(g => ({
-    label: g,
-    icon: '🎼',
-    action: 'push',
-    target: 'genre_songs',
-    genre: g,
-  }));
+  const genreOrder = ['Blues', 'Jazz', 'Folk', 'Country', 'Classical', 'Vocal Pop', 'Music Hall', 'World', 'Folk / Ragtime', 'User Upload'];
+  const present = [...new Set(allSongs().map(s => s.genre))];
+  const sorted = [
+    ...genreOrder.filter(g => present.includes(g)),
+    ...present.filter(g => !genreOrder.includes(g)).sort(),
+  ];
+  return sorted.map(g => {
+    const count = allSongs().filter(s => s.genre === g).length;
+    const icons = { Blues:'🎵', Jazz:'🎷', Folk:'🎸', Country:'🚂', Classical:'🎻', 'Vocal Pop':'🎤', 'Music Hall':'🎩', World:'🌍' };
+    return {
+      label: g,
+      sub: `${count} song${count !== 1 ? 's' : ''}`,
+      icon: icons[g] || '🎼',
+      action: 'push',
+      target: 'genre_songs',
+      genre: g,
+    };
+  });
 }
 
 function buildEQMenu() {
@@ -464,8 +776,15 @@ function handleAction(item) {
 
     case 'artist_songs': {
       menuStack.push({ view: currentView, index: menuIndex, offset: menuOffset });
-      // filter songs list by artist
       currentView = 'artist_songs_' + item.artist;
+      menuIndex = 0; menuOffset = 0;
+      render();
+      break;
+    }
+
+    case 'album_songs': {
+      menuStack.push({ view: currentView, index: menuIndex, offset: menuOffset });
+      currentView = 'album_songs_' + item.album;
       menuIndex = 0; menuOffset = 0;
       render();
       break;
@@ -523,6 +842,8 @@ function render() {
     default:
       if (currentView.startsWith('artist_songs_')) {
         renderFilteredSongs('artist', currentView.replace('artist_songs_', ''));
+      } else if (currentView.startsWith('album_songs_')) {
+        renderFilteredSongs('album', currentView.replace('album_songs_', ''));
       } else if (currentView.startsWith('genre_songs_')) {
         renderFilteredSongs('genre', currentView.replace('genre_songs_', ''));
       } else {
@@ -550,10 +871,11 @@ function getMenuTitle() {
   const titles = {
     main_menu: 'iPod', music_menu: 'Music', extras_menu: 'Extras',
     settings_menu: 'Settings', songs_list: 'Songs', artists_list: 'Artists',
-    genres_list: 'Genres', eq_menu: 'EQ', about_view: 'About',
+    albums_list: 'Albums', genres_list: 'Genres', eq_menu: 'EQ', about_view: 'About',
   };
   if (currentView.startsWith('artist_songs_')) return currentView.replace('artist_songs_', '');
-  if (currentView.startsWith('genre_songs_')) return currentView.replace('genre_songs_', '');
+  if (currentView.startsWith('album_songs_'))  return currentView.replace('album_songs_', '');
+  if (currentView.startsWith('genre_songs_'))  return currentView.replace('genre_songs_', '');
   return titles[currentView] || 'iPod';
 }
 
@@ -584,7 +906,11 @@ function renderMenu() {
 function renderFilteredSongs(type, value) {
   const filtered = allSongs()
     .map((s, i) => ({ ...s, origIndex: i }))
-    .filter(s => type === 'artist' ? s.artist === value : s.genre === value);
+    .filter(s => {
+      if (type === 'artist') return s.artist === value;
+      if (type === 'album')  return s.album  === value;
+      return s.genre === value;
+    });
 
   const rows = filtered.slice(menuOffset, menuOffset + MAX_VISIBLE).map((s, i) => {
     const globalIdx = i + menuOffset;
@@ -829,7 +1155,7 @@ btnSelect.addEventListener('click', e => {
   wakeScreen();
   if (currentView === 'now_playing') return; // clicks handled inside
   // For filtered song views
-  if (currentView.startsWith('artist_songs_') || currentView.startsWith('genre_songs_')) {
+  if (currentView.startsWith('artist_songs_') || currentView.startsWith('album_songs_') || currentView.startsWith('genre_songs_')) {
     const filtered = state._filteredSongs || [];
     const song = filtered[menuIndex];
     if (song) {
